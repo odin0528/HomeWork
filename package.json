@@ -1,0 +1,53 @@
+{
+  "name": "GiantZongziEC",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "pm2 start npm --name GiantZongziEC -- start",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "yarn lint:js"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/moment": "^1.6.1",
+    "bootstrap": "4.5.3",
+    "bootstrap-vue": "^2.21.2",
+    "cookie-universal-nuxt": "^2.1.5",
+    "cookieparser": "^0.1.0",
+    "core-js": "^3.15.1",
+    "crypto-js": "^4.1.1",
+    "elementtree": "^0.1.7",
+    "express": "^4.17.1",
+    "js-cookie": "^3.0.0",
+    "nuxt": "^2.15.7",
+    "nuxt-i18n": "^6.27.3",
+    "pm2": "^5.1.1",
+    "printf": "^0.6.1",
+    "sass": "1.32.13",
+    "sass-loader": "10.1.1",
+    "swiper": "5.4.5",
+    "vee-validate": "^3.4.11",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-form-wizard": "^0.8.4",
+    "vue-inner-image-zoom": "^1.1.0",
+    "vue-ripple-directive": "^2.0.1",
+    "vue-select": "^3.12.1",
+    "vue-the-mask": "^0.11.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/eslint-config": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "prettier": "^2.3.2",
+    "vue-feather-icons": "^5.1.0"
+  }
+}

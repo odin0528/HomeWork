@@ -1,0 +1,24 @@
+[
+  {
+    "title": "index",
+    "icon": "HomeIcon",
+    "route": "/"
+  },
+  {
+    "title": "all_product",
+    "icon": "GridIcon",
+    "route": "/categories"
+  },
+  {
+    "title": "promotions",
+    "icon": "BoxIcon",
+    "tagVariant": "primary",
+    "route": "/promotions"
+  },
+  {
+    "title": "about_us",
+    "icon": "InfoIcon",
+    "tagVariant": "primary",
+    "route": "/about"
+  }
+]
